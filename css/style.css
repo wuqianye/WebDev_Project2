@@ -1,0 +1,26 @@
+body {
+    min-width: 500px;
+    min-height: 100vh;
+}
+
+main {
+    min-height: 82vh;
+}
+
+.jumbotron {
+    height: 400px;
+    max-height: 84vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url("https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1048&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.quantity-input {
+    width: 120px !important;
+}
+
+span.remove-from-cart {
+    font-size: 24px;
+}
